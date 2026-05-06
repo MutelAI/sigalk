@@ -1,0 +1,11 @@
+{
+  "primary_color": "rose",
+  "secondary_color": "pink",
+  "hero_gradient": "from-rose-900 via-rose-800 to-pink-900",
+  "contact_gradient": "from-rose-800 via-pink-800 to-rose-900",
+  "font_heading": "system-ui",
+  "font_body": "system-ui",
+  "font_google_import": "",
+  "brand_personality": "מקצועי, חם, אישי, קהילתי",
+  "logo_emoji": "Sparkles"
+}
