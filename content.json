@@ -503,6 +503,21 @@
       "variant": "",
       "visible": false,
       "items": []
+    },
+    {
+      "id": "banner",
+      "variant": "A",
+      "visible": true
+    }
+  ],
+  "banners": [
+    {
+      "id": "banner-1778081094800",
+      "active": true,
+      "title_he": "שלוםםםם",
+      "title_en": "שלוםםםם",
+      "desc_he": "מבצע רק עכשיו !! תשלם על האתר שיצירתי לך",
+      "desc_en": "מבצע רק עכשיו !! תשלם על האתר שיצירתי לך"
     }
   ]
 }
