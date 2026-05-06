@@ -459,8 +459,20 @@
     {
       "id": "pricing",
       "variant": "",
-      "visible": false,
-      "items": []
+      "visible": true,
+      "items": [
+        {
+          "name": {
+            "he": "מניקור",
+            "en": "מניקור"
+          },
+          "price": {
+            "he": "1000",
+            "en": "1000"
+          },
+          "id": "pricing-1778079130560"
+        }
+      ]
     },
     {
       "id": "faq",
