@@ -29,12 +29,69 @@
     "source_url": "https://maps.app.goo.gl/sodoeBNECsZfNcQr5",
     "cache_key": "sodoeBNECsZfNcQr5"
   },
-  "hours": [],
+  "hours": [
+    {
+      "day_key": "sunday",
+      "day_he": "ראשון",
+      "day_en": "Sunday",
+      "hours_he": "9:00 - 19:00",
+      "hours_en": "9 am–7 pm",
+      "is_open": true
+    },
+    {
+      "day_key": "monday",
+      "day_he": "שני",
+      "day_en": "Monday",
+      "hours_he": "9:00 - 19:00",
+      "hours_en": "9 am–7 pm",
+      "is_open": true
+    },
+    {
+      "day_key": "tuesday",
+      "day_he": "שלישי",
+      "day_en": "Tuesday",
+      "hours_he": "9:00 - 19:00",
+      "hours_en": "9 am–7 pm",
+      "is_open": true
+    },
+    {
+      "day_key": "wednesday",
+      "day_he": "רביעי",
+      "day_en": "Wednesday",
+      "hours_he": "9:00 - 19:00",
+      "hours_en": "9 am–7 pm",
+      "is_open": true
+    },
+    {
+      "day_key": "thursday",
+      "day_he": "חמישי",
+      "day_en": "Thursday",
+      "hours_he": "9:00 - 17:00",
+      "hours_en": "9 am–5 pm",
+      "is_open": true
+    },
+    {
+      "day_key": "friday",
+      "day_he": "שישי",
+      "day_en": "Friday",
+      "hours_he": "9:00 - 15:00",
+      "hours_en": "9 am–3 pm",
+      "is_open": true
+    },
+    {
+      "day_key": "saturday",
+      "day_he": "שבת",
+      "day_en": "Saturday",
+      "hours_he": "סגור",
+      "hours_en": "Closed",
+      "is_open": false
+    }
+  ],
   "design": {},
   "sections": [
     {
       "id": "hero",
-      "variant": "P",
+      "variant": "",
       "visible": true,
       "content": {
         "badge": {
@@ -380,44 +437,6 @@
       }
     },
     {
-      "id": "pricing",
-      "variant": "E",
-      "visible": true,
-      "items": [
-        {
-          "name": {
-            "he": "מניקור",
-            "en": "מניקור"
-          },
-          "price": {
-            "he": "1000",
-            "en": "1000"
-          },
-          "id": "pricing-1778079130560"
-        },
-        {
-          "name": {
-            "he": "פדיקור",
-            "en": "פדיקור"
-          },
-          "price": {
-            "he": "4000",
-            "en": "4000"
-          },
-          "desc": {
-            "he": "ממש כדאי מאוד",
-            "en": "ממש כדאי מאוד"
-          },
-          "id": "pricing-1778079214020"
-        }
-      ]
-    },
-    {
-      "id": "location",
-      "variant": "",
-      "visible": true
-    },
-    {
       "id": "about",
       "variant": "",
       "visible": true,
@@ -431,6 +450,17 @@
           "en": ""
         }
       }
+    },
+    {
+      "id": "location",
+      "variant": "",
+      "visible": true
+    },
+    {
+      "id": "pricing",
+      "variant": "",
+      "visible": false,
+      "items": []
     },
     {
       "id": "faq",
@@ -474,9 +504,5 @@
       "visible": false,
       "items": []
     }
-  ],
-  "hidden_sections": [
-    "whatsapp_fab",
-    "hours"
   ]
 }
