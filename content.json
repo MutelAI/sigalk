@@ -29,64 +29,7 @@
     "source_url": "https://maps.app.goo.gl/sodoeBNECsZfNcQr5",
     "cache_key": "sodoeBNECsZfNcQr5"
   },
-  "hours": [
-    {
-      "day_key": "sunday",
-      "day_he": "ראשון",
-      "day_en": "Sunday",
-      "hours_he": "9:00 - 19:00",
-      "hours_en": "9 am–7 pm",
-      "is_open": true
-    },
-    {
-      "day_key": "monday",
-      "day_he": "שני",
-      "day_en": "Monday",
-      "hours_he": "9:00 - 19:00",
-      "hours_en": "9 am–7 pm",
-      "is_open": true
-    },
-    {
-      "day_key": "tuesday",
-      "day_he": "שלישי",
-      "day_en": "Tuesday",
-      "hours_he": "9:00 - 19:00",
-      "hours_en": "9 am–7 pm",
-      "is_open": true
-    },
-    {
-      "day_key": "wednesday",
-      "day_he": "רביעי",
-      "day_en": "Wednesday",
-      "hours_he": "9:00 - 19:00",
-      "hours_en": "9 am–7 pm",
-      "is_open": true
-    },
-    {
-      "day_key": "thursday",
-      "day_he": "חמישי",
-      "day_en": "Thursday",
-      "hours_he": "9:00 - 17:00",
-      "hours_en": "9 am–5 pm",
-      "is_open": true
-    },
-    {
-      "day_key": "friday",
-      "day_he": "שישי",
-      "day_en": "Friday",
-      "hours_he": "9:00 - 15:00",
-      "hours_en": "9 am–3 pm",
-      "is_open": true
-    },
-    {
-      "day_key": "saturday",
-      "day_he": "שבת",
-      "day_en": "Saturday",
-      "hours_he": "סגור",
-      "hours_en": "Closed",
-      "is_open": false
-    }
-  ],
+  "hours": [],
   "design": {},
   "sections": [
     {
@@ -437,26 +380,6 @@
       }
     },
     {
-      "id": "about",
-      "variant": "",
-      "visible": true,
-      "content": {
-        "desc": {
-          "he": "סיגל היא קוסמטיקאית ודרמטרפיסטית מוסמכת המפעילה קליניקה משלה בלב שכונת שפירא בפתח תקווה. עם ניסיון ומקצועיות, סיגל מציעה טיפולי עור מותאמים לכל סוג עור וצורך, תוך טיפול אישי וחם שהוא חתימתה. הלקוחות שלה חוזרים שוב ושוב, משום שהם יודעים שהם בידיים מקצועיות ונאמנות.",
-          "en": "סיגל היא קוסמטיקאית ודרמטרפיסטית מוסמכת המפעילה קליניקה משלה בלב שכונת שפירא בפתח תקווה. עם ניסיון ומקצועיות, סיגל מציעה טיפולי עור מותאמים לכל סוג עור וצורך, תוך טיפול אישי וחם שהוא חתימתה. הלקוחות שלה חוזרים שוב ושוב, משום שהם יודעים שהם בידיים מקצועיות ונאמנות."
-        },
-        "years_value": {
-          "he": "",
-          "en": ""
-        }
-      }
-    },
-    {
-      "id": "location",
-      "variant": "",
-      "visible": true
-    },
-    {
       "id": "pricing",
       "variant": "",
       "visible": true,
@@ -473,6 +396,26 @@
           "id": "pricing-1778079130560"
         }
       ]
+    },
+    {
+      "id": "location",
+      "variant": "",
+      "visible": true
+    },
+    {
+      "id": "about",
+      "variant": "",
+      "visible": true,
+      "content": {
+        "desc": {
+          "he": "סיגל היא קוסמטיקאית ודרמטרפיסטית מוסמכת המפעילה קליניקה משלה בלב שכונת שפירא בפתח תקווה. עם ניסיון ומקצועיות, סיגל מציעה טיפולי עור מותאמים לכל סוג עור וצורך, תוך טיפול אישי וחם שהוא חתימתה. הלקוחות שלה חוזרים שוב ושוב, משום שהם יודעים שהם בידיים מקצועיות ונאמנות.",
+          "en": "סיגל היא קוסמטיקאית ודרמטרפיסטית מוסמכת המפעילה קליניקה משלה בלב שכונת שפירא בפתח תקווה. עם ניסיון ומקצועיות, סיגל מציעה טיפולי עור מותאמים לכל סוג עור וצורך, תוך טיפול אישי וחם שהוא חתימתה. הלקוחות שלה חוזרים שוב ושוב, משום שהם יודעים שהם בידיים מקצועיות ונאמנות."
+        },
+        "years_value": {
+          "he": "",
+          "en": ""
+        }
+      }
     },
     {
       "id": "faq",
@@ -518,6 +461,7 @@
     }
   ],
   "hidden_sections": [
-    "whatsapp_fab"
+    "whatsapp_fab",
+    "hours"
   ]
 }
