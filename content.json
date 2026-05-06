@@ -508,6 +508,11 @@
       "id": "banner",
       "variant": "A",
       "visible": true
+    },
+    {
+      "id": "nav",
+      "variant": "A",
+      "visible": true
     }
   ],
   "banners": [
