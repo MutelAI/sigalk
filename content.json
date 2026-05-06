@@ -29,7 +29,6 @@
     "source_url": "https://maps.app.goo.gl/sodoeBNECsZfNcQr5",
     "cache_key": "sodoeBNECsZfNcQr5"
   },
-  "editToken": "6a5db98852d518c8ac7f3329eb37644e",
   "hours": [
     {
       "day_key": "sunday",
@@ -92,7 +91,7 @@
   "sections": [
     {
       "id": "hero",
-      "variant": "",
+      "variant": "P",
       "visible": true,
       "content": {
         "badge": {
@@ -505,5 +504,8 @@
       "visible": false,
       "items": []
     }
+  ],
+  "hidden_sections": [
+    "whatsapp_fab"
   ]
 }
